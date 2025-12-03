@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Third Space Lounge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="brand">Third Space Lounge</div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#rooms">Rentable Rooms</a>
+      <a href="#lounge">Warm Jazz</a>
+      <a href="#investors">Investors</a>
+      <a href="#cta">Book</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="panel">
+      <div class="content">
+        <p class="eyebrow">Coffee • Cannabis • Beer</p>
+        <h1>Modern 3rd space built for lingering, collaborating, and unwinding.</h1>
+        <p class="lead">Scroll to walk the experience—rooms reveal, jazz warms, and investors learn how to join the vibe.</p>
+        <div class="actions">
+          <a class="button" href="#rooms">Explore rooms</a>
+          <a class="button ghost" href="#investors">Investor info</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orb one"></div>
+        <div class="orb two"></div>
+        <div class="orb three"></div>
+        <div class="annotation">Scroll to develop the story ↓</div>
+      </div>
+    </section>
+
+    <section id="rooms" class="panel warm">
+      <div class="content">
+        <p class="eyebrow">Private micro-venues</p>
+        <h2>Individual rentable rooms for every mood.</h2>
+        <p class="lead">Book by the hour for focus sessions, creator collabs, or intimate hangouts. Soft lighting, acoustic treatment, and concierge service keep the vibe effortless.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Studio Pods</h3>
+            <p>Sound-dampened pods with espresso taps and fast Wi‑Fi for quick huddles or solo sprints.</p>
+          </article>
+          <article class="card">
+            <h3>Listening Rooms</h3>
+            <p>Vinyl-ready, candle-lit, and tuned for hi-fi. Pair with a dark roast or a chilled craft beer.</p>
+          </article>
+          <article class="card">
+            <h3>Creator Suites</h3>
+            <p>Whiteboard walls, recording mics, and lounge seating for workshops and content drops.</p>
+          </article>
+          <article class="card">
+            <h3>Social Parlors</h3>
+            <p>Cozy couches, discreet ventilation, and custom playlists for relaxed group sessions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="lounge" class="panel dark">
+      <div class="content split">
+        <div>
+          <p class="eyebrow">Warm jazz, soft light</p>
+          <h2>The lounge breathes with analog warmth.</h2>
+          <p class="lead">Live jazz, low lighting, and deep seating invite lingering conversations. Curated pour-over, infused mocktails, and local craft pours keep glasses full without rushing the night.</p>
+          <ul class="list">
+            <li>Live trios every weekend with brushed drums and upright bass.</li>
+            <li>Acoustic dampening and velvet textures keep the room intimate.</li>
+            <li>Table-side service—no noisy bar lines, just steady hospitality.</li>
+          </ul>
+        </div>
+        <div class="lounge-art">
+          <div class="glow"></div>
+          <div class="lamp"></div>
+          <div class="sofa"></div>
+          <p class="annotation">Warmth you can feel even on scroll.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="investors" class="panel light">
+      <div class="content">
+        <p class="eyebrow">Investor &amp; brand partners</p>
+        <h2>Own a piece, advertise in-room.</h2>
+        <p class="lead">We pair hospitality with tasteful placement. Sponsors get premium placement inside rentable rooms and lounge touchpoints without breaking the vibe.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Room takeovers</h3>
+            <p>Brand a suite for the night—custom signage, menu pairings, and co-hosted events.</p>
+          </article>
+          <article class="card">
+            <h3>Ad placements</h3>
+            <p>Subtle digital frames, menu inserts, and table cards tuned to your campaign.</p>
+          </article>
+          <article class="card">
+            <h3>Investor perks</h3>
+            <p>Priority booking, quarterly showcases, and partner-only community nights.</p>
+          </article>
+        </div>
+        <div class="actions">
+          <a class="button" href="#cta">Book a walkthrough</a>
+          <a class="button ghost" href="mailto:hello@thirdspace.example">Investor deck</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="panel footer">
+      <div class="content">
+        <h2>Ready to rent a room or host a warm night?</h2>
+        <p class="lead">Tell us your vibe, guest count, and whether you want coffee, cannabis, beer, or all three. We’ll pair you with the right room.</p>
+        <form class="cta-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Room type &amp; date
+            <textarea name="details" rows="3" placeholder="Creator suite for 6 on Friday, prefer jazz near 9pm."></textarea>
+          </label>
+          <button type="submit" class="button">Request booking</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Third Space Lounge — crafted for slow nights and bold ideas.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
